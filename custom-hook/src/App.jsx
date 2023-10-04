@@ -1,5 +1,6 @@
 
 import './App.css'
+import Sayac from './Sayac'
 import TitleOne from './TitleOne'
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
 
   return (
     <div className='App'>
-      <TitleOne/>
+{/*       <TitleOne/> */}
+    <Sayac/>
     </div>
   )
 }
