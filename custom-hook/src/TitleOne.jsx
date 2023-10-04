@@ -9,6 +9,7 @@ export default function TitleOne() {
   },[num]); */
 
   useTitle(num);
+  
   return (
     <div>
       <button onClick={() => setNum(num + 1)}>Sayı - {num} </button>
